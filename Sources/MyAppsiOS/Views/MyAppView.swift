@@ -14,7 +14,11 @@ public struct MyAppView: View {
     
     @Environment(\.openURL) var openURL
     
-    @State var app: MyApp
+    var app: MyApp
+    
+    public init(app: MyApp) {
+        self.app = app
+    }
 
     public var body: some View {
         HStack(spacing: 12) {
