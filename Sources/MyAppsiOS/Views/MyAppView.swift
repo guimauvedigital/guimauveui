@@ -5,7 +5,7 @@
 //  Created by Nathan Fallet on 28/01/2022.
 //
 
-#if canImport(SwiftUI)
+#if canImport(SwiftUI) && !arch(arm)
 
 import SwiftUI
 
