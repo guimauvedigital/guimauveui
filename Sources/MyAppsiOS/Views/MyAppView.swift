@@ -10,13 +10,13 @@
 import SwiftUI
 
 @available(iOS 14.0, macOS 11.0, watchOS 7.0, *)
-struct MyAppView: View {
+public struct MyAppView: View {
     
     @Environment(\.openURL) var openURL
     
     @State var app: MyApp
 
-    var body: some View {
+    public var body: some View {
         HStack(spacing: 12) {
             Image(app.icon, bundle: .module)
                 .resizable()

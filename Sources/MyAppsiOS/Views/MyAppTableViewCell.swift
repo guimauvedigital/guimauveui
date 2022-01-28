@@ -9,7 +9,7 @@
 
 import UIKit
 
-class AppTableViewCell: UITableViewCell {
+public class AppTableViewCell: UITableViewCell {
     
     let icon = UIImageView()
     let name = UILabel()
@@ -53,7 +53,7 @@ class AppTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func with(app: MyApp) -> AppTableViewCell {
+    public func with(app: MyApp) -> AppTableViewCell {
         self.name.text = app.name
         self.desc.text = NSLocalizedString(app.description, bundle: .module, comment: app.description)
         self.desc.textColor = .systemGray
@@ -63,7 +63,7 @@ class AppTableViewCell: UITableViewCell {
         return self
     }
     
-    func openURL() {
+    public func openURL() {
         if let url = url, let urlObject = URL(string: url) {
             if #available(iOS 10.0, *) {
                 UIApplication.shared.open(urlObject)

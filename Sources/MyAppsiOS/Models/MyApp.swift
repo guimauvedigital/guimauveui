@@ -7,7 +7,11 @@
 
 import Foundation
 
-public struct MyApp {
+public struct MyApp: Identifiable {
+    
+    // Identifiable
+    
+    public var id: String { name }
     
     // Properties
     
