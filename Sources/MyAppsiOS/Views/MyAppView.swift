@@ -9,29 +9,34 @@
 
 import SwiftUI
 
-@available(iOS 13.0, macOS 10.15, watchOS 6.0, *)
+@available(iOS 14.0, macOS 11.0, watchOS 7.0, *)
 struct MyAppView: View {
     
-    @State var name: String
-    @State var description: String
-    @State var image: String
+    @Environment(\.openURL) var openURL
+    
+    @State var app: MyApp
 
     var body: some View {
         HStack(spacing: 12) {
-            Image(image, bundle: .module)
+            Image(app.icon, bundle: .module)
                 .resizable()
                 .frame(width: 44, height: 44)
                 .cornerRadius(8)
                 .padding(.vertical, 8)
             VStack(alignment: .leading, spacing: 4) {
-                Text(name)
-                Text(LocalizedStringKey(description), bundle: .module)
+                Text(app.name)
+                Text(LocalizedStringKey(app.description), bundle: .module)
                     .font(.footnote)
                     .foregroundColor(.secondary)
             }
             #if os(iOS)
             Spacer()
             #endif
+        }
+        .onTapGesture {
+            if let url = URL(string: app.url) {
+                openURL(url)
+            }
         }
     }
     
