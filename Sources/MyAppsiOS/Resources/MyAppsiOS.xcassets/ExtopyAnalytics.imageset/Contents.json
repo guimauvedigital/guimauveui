@@ -12,6 +12,15 @@
       "filename" : "extopyanalytics.png",
       "idiom" : "universal",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "extopyanalytics.png",
+      "idiom" : "mac",
+      "scale" : "2x"
     }
   ],
   "info" : {

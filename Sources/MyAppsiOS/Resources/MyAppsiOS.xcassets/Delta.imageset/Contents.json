@@ -12,6 +12,15 @@
       "filename" : "delta.png",
       "idiom" : "universal",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "delta.png",
+      "idiom" : "mac",
+      "scale" : "2x"
     }
   ],
   "info" : {
