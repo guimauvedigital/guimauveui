@@ -23,9 +23,3 @@ public struct MyAppHeader: View {
 }
 
 #endif
-
-public struct MyAppHeaderText {
-    
-    public static let localizedString = NSLocalizedString("header", bundle: .module, comment: "header")
-    
-}
