@@ -1,5 +1,3 @@
-# MyAppsiOS
+# MyApps
 
-A list of my iOS apps, with associated views (UIKit and SwiftUI), to embed in all of them.
-
-The same project is available for [my Android apps](https://github.com/NathanFallet/MyAppsiOS).
+A list of my iOS & Android apps, with associated views (UIKit, SwiftUI, Preferences, ...), to embed in all of them.

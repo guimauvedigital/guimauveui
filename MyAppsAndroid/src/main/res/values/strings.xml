@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="header">Apps by the same developer</string>
+    <string name="latexcards">Learn anywhere at anytime.</string>
+    <string name="delta">Math algorithms made easy</string>
+    <string name="ocaml">All-in-one tool for OCaml</string>
+    <string name="tictaitoe">A tic tac toe with AI and PRO</string>
+    <string name="extopyanalytics">Easy social networks analytics</string>
+</resources>
