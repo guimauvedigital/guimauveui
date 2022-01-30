@@ -7,7 +7,7 @@ import androidx.cardview.widget.CardView
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
 
-class MyAppPreference(context: Context): Preference(context) {
+internal class MyAppPreference(context: Context): Preference(context) {
 
     override fun onBindViewHolder(holder: PreferenceViewHolder) {
         super.onBindViewHolder(holder)
@@ -22,6 +22,7 @@ class MyAppPreference(context: Context): Preference(context) {
 
             val cardView = CardView(context)
             cardView.addView(icon)
+            cardView.elevation = 0f
             cardView.radius = TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_DIP,
                 8f,
