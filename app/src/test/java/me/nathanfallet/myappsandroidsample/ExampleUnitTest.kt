@@ -1,4 +1,4 @@
-package me.nathanfallet.myappsandroid
+package me.nathanfallet.myappsandroidsample
 
 import org.junit.Test
 

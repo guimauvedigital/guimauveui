@@ -1,10 +1,10 @@
-package me.nathanfallet.myappsandroid
+package me.nathanfallet.myappsandroidsample
 
 import android.os.Bundle
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
-import me.nathanfallet.myappsandroid.databinding.ActivityMainBinding
+import me.nathanfallet.myappsandroidsample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

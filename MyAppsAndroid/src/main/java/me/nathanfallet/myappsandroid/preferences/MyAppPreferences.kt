@@ -3,7 +3,6 @@ package me.nathanfallet.myappsandroid.preferences
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
-import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceScreen
 import me.nathanfallet.myappsandroid.R

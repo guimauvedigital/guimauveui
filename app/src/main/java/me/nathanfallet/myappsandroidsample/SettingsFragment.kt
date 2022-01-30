@@ -1,4 +1,4 @@
-package me.nathanfallet.myappsandroid
+package me.nathanfallet.myappsandroidsample
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat
