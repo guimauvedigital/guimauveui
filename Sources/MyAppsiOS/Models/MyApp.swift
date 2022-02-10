@@ -36,10 +36,10 @@ public struct MyApp: Identifiable {
             url: "https://apps.apple.com/app/latex-cards/id1598813588"
         ),
         MyApp(
-            name: "BaseConverter: All in one",
-            description: "baseconverter",
-            icon: "BaseConverter",
-            url: "https://apps.apple.com/app/baseconverter-all-in-one/id1446344899"
+            name: "Converty: Number conversion",
+            description: "converty",
+            icon: "Converty",
+            url: "https://apps.apple.com/app/converty-number-conversion/id1609456234"
         ),
         MyApp(
             name: "Delta: Algorithms",
