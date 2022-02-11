@@ -10,6 +10,12 @@ enum class MyApp(val displayname: String, val description: Int, val icon: Int, v
         R.drawable.latexcards,
         "https://play.google.com/store/apps/details?id=me.nathanfallet.latexcards"
     ),
+    CONVERTY(
+        "Converty: Number conversion",
+        R.string.converty,
+        R.drawable.converty,
+        "https://play.google.com/store/apps/details?id=me.nathanfallet.converty"
+    ),
     DELTA(
         "Delta: Algorithms",
         R.string.delta,

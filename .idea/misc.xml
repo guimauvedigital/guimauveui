@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="MyAppsAndroid/src/main/res/drawable/rounded_icon.xml" value="0.21770833333333334" />
+        <entry key="MyAppsAndroid/src/main/res/layout/myapp_header.xml" value="0.11775362318840579" />
+        <entry key="MyAppsAndroid/src/main/res/layout/myapp_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1752786220871327" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.1752786220871327" />
         <entry key="app/src/main/res/xml/root_preferences.xml" value="0.15760869565217392" />
