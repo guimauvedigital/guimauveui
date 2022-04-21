@@ -11,7 +11,7 @@ enum class MyApp(val displayname: String, val description: Int, val icon: Int, v
         "https://play.google.com/store/apps/details?id=me.nathanfallet.latexcards"
     ),
     CONVERTY(
-        "Converty: Base Converter",
+        "Base Converter: Converty",
         R.string.converty,
         R.drawable.converty,
         "https://play.google.com/store/apps/details?id=me.nathanfallet.converty"
