@@ -2,7 +2,6 @@
 <resources>
     <string name="tictaitoe">Un tic tac con IA y PRO</string>
     <string name="converty">¡Converte números y más!</string>
-    <string name="extopyanalytics">Análisis sencillo de las redes sociales</string>
     <string name="header">Aplicaciones del mismo desarrollador</string>
     <string name="delta">Algoritmos de matemáticas faciles</string>
     <string name="latexcards">Siempre aprendes.</string>

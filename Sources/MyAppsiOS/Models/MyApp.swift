@@ -58,13 +58,7 @@ public struct MyApp: Identifiable {
             description: "tictaitoe",
             icon: "TicTAIToe",
             url: "https://apps.apple.com/app/tic-tai-toe/id1459186328"
-        ),
-        MyApp(
-            name: "Extopy Analytics",
-            description: "extopyanalytics",
-            icon: "ExtopyAnalytics",
-            url: "https://apps.apple.com/app/extopy-analytics/id1493353835"
-        ),
+        )
     ]
     
 }
