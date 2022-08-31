@@ -26,7 +26,6 @@ public struct MyAppView: View {
                 .resizable()
                 .frame(width: 44, height: 44)
                 .cornerRadius(8)
-                .padding(.vertical, 8)
             VStack(alignment: .leading, spacing: 4) {
                 Text(app.name)
                 Text(LocalizedStringKey(app.description), bundle: .module)
