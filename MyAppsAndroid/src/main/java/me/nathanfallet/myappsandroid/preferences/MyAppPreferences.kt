@@ -7,7 +7,7 @@ import androidx.preference.PreferenceScreen
 import me.nathanfallet.myappsandroid.R
 import me.nathanfallet.myappsandroid.models.MyApp
 
-class MyAppPreferences {
+object MyAppPreferences {
 
     fun addPreferences(screen: PreferenceScreen) {
         val category = PreferenceCategory(screen.context)
