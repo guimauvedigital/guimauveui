@@ -3,4 +3,5 @@
     <string name="title_activity_main">MyAppsAndroid</string>
     <string name="tab_text_1">Preference screen</string>
     <string name="tab_text_2">Recycler view</string>
+    <string name="tab_text_3">Compose prefs</string>
 </resources>
