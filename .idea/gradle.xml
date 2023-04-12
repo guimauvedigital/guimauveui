@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/MyAppsAndroid" />
+            <option value="$PROJECT_DIR$/MyAppsAndroidCompose" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
