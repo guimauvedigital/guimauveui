@@ -24,16 +24,16 @@ public struct MyApp: Identifiable {
     
     public static let values = [
         MyApp(
-            name: "Ringify",
-            description: "ringify",
-            icon: "Ringify",
-            url: "https://apps.apple.com/app/ringify/id1575388217"
-        ),
-        MyApp(
             name: "LaTeX Cards",
             description: "latexcards",
             icon: "LaTeXCards",
             url: "https://apps.apple.com/app/latex-cards/id1598813588"
+        ),
+        MyApp(
+            name: "Ringify",
+            description: "ringify",
+            icon: "Ringify",
+            url: "https://apps.apple.com/app/ringify/id1575388217"
         ),
         MyApp(
             name: "Base Converter: Converty",
