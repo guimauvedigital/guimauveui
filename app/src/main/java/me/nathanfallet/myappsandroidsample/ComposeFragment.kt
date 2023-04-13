@@ -13,7 +13,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.fragment.app.Fragment
 import com.jamal.composeprefs.ui.PrefsScreen
-import me.nathanfallet.myappsandroidcompose.myApps
+import me.nathanfallet.myappsandroid.compose.myApps
 
 val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "compose")
 

@@ -1,4 +1,4 @@
-package me.nathanfallet.myappsandroidcompose
+package me.nathanfallet.myappsandroid.compose
 
 import androidx.compose.ui.res.stringResource
 import com.jamal.composeprefs.ui.GroupHeader

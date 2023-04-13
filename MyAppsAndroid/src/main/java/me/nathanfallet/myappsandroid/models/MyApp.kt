@@ -33,6 +33,12 @@ enum class MyApp(val displayname: String, val description: Int, val icon: Int, v
         R.string.tictaitoe,
         R.drawable.tictaitoe,
         "https://play.google.com/store/apps/details?id=me.nathanfallet.morpiontpe"
+    ),
+    BDEENSISA(
+        "BDE de l'ENSISA",
+        R.string.bdeensisa,
+        R.drawable.bdeensisa,
+        "https://play.google.com/store/apps/details?id=me.nathanfallet.bdeensisa"
     )
 
 }

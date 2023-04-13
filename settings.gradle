@@ -9,4 +9,3 @@ dependencyResolutionManagement {
 rootProject.name = "MyAppsAndroid"
 include ':app'
 include ':MyAppsAndroid'
-include ':MyAppsAndroidCompose'

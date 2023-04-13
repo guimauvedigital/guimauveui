@@ -1,4 +1,4 @@
-package me.nathanfallet.myappsandroidcompose
+package me.nathanfallet.myappsandroid.compose
 
 import android.content.Intent
 import android.net.Uri

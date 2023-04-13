@@ -58,6 +58,12 @@ public struct MyApp: Identifiable {
             description: "tictaitoe",
             icon: "TicTAIToe",
             url: "https://apps.apple.com/app/tic-tai-toe/id1459186328"
+        ),
+        MyApp(
+            name: "BDE de l'ENSISA",
+            description: "bdeensisa",
+            icon: "BdeEnsisa",
+            url: "https://apps.apple.com/app/bde-de-lensisa/id1669367752"
         )
     ]
     
