@@ -16,12 +16,6 @@ enum class MyApp(val displayname: String, val description: Int, val icon: Int, v
         R.drawable.converty,
         "https://play.google.com/store/apps/details?id=me.nathanfallet.converty"
     ),
-    DELTA(
-        "Delta: Algorithms",
-        R.string.delta,
-        R.drawable.delta,
-        "https://play.google.com/store/apps/details?id=fr.zabricraft.delta"
-    ),
     OCAML(
         "OCaml: Learn & Code",
         R.string.ocaml,

@@ -42,12 +42,6 @@ public struct MyApp: Identifiable {
             url: "https://apps.apple.com/app/base-converter-converty/id1609456234"
         ),
         MyApp(
-            name: "Delta: Algorithms",
-            description: "delta",
-            icon: "Delta",
-            url: "https://apps.apple.com/app/delta-algorithms/id1436506800"
-        ),
-        MyApp(
             name: "OCaml: Learn & Code",
             description: "ocaml",
             icon: "OCaml",
