@@ -29,7 +29,6 @@ public struct MyAppView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(app.name)
                 Text(LocalizedStringKey(app.description), bundle: .module)
-                    .font(.footnote)
                     .foregroundColor(.secondary)
             }
             #if os(iOS)
