@@ -4,14 +4,28 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/convention-plugins" name="convention-plugins">
+                <projects>
+                  <project path="$PROJECT_DIR$/convention-plugins" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/MyAppsAndroid" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/convention-plugins" />
+            <option value="$PROJECT_DIR$/myapps" />
+            <option value="$PROJECT_DIR$/myapps-android" />
+            <option value="$PROJECT_DIR$/myapps-android-compose" />
+            <option value="$PROJECT_DIR$/myapps-android-preferences" />
+            <option value="$PROJECT_DIR$/myapps-android-recyclerview" />
           </set>
         </option>
       </GradleProjectSettings>
