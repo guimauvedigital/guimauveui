@@ -1,14 +1,13 @@
-package me.nathanfallet.myappsandroidsample
+package me.nathanfallet.myapps.sample
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat
-import me.nathanfallet.myappsandroid.preferences.MyAppPreferences
+import me.nathanfallet.myapps.preferences.myApps
 
 class SettingsFragment : PreferenceFragmentCompat() {
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.root_preferences, rootKey)
-
-        MyAppPreferences.addPreferences(preferenceScreen)
+        preferenceScreen.myApps()
     }
 }

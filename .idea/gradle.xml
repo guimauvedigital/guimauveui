@@ -19,13 +19,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/convention-plugins" />
             <option value="$PROJECT_DIR$/myapps" />
             <option value="$PROJECT_DIR$/myapps-android" />
             <option value="$PROJECT_DIR$/myapps-android-compose" />
             <option value="$PROJECT_DIR$/myapps-android-preferences" />
             <option value="$PROJECT_DIR$/myapps-android-recyclerview" />
+            <option value="$PROJECT_DIR$/myapps-android-sample" />
           </set>
         </option>
       </GradleProjectSettings>

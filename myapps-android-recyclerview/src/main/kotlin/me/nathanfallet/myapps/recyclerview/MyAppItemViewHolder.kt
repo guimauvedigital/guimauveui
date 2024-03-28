@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import me.nathanfallet.myapps.android.R
 import me.nathanfallet.myapps.models.MyAppAndroid
 
 internal class MyAppItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

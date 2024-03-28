@@ -3,7 +3,6 @@ package me.nathanfallet.myapps.recyclerview
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import me.nathanfallet.myapps.android.R
 import me.nathanfallet.myapps.extensions.android
 import me.nathanfallet.myapps.models.MyApp
 

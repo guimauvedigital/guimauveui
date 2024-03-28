@@ -18,6 +18,9 @@ android {
         compose = true
         viewBinding = true
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.5"
+    }
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false

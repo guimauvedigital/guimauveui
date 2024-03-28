@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">MyAppsAndroid</string>
-    <string name="title_activity_main">MyAppsAndroid</string>
+    <string name="app_name">myapps-android-sample</string>
     <string name="tab_text_1">Preference screen</string>
     <string name="tab_text_2">Recycler view</string>
     <string name="tab_text_3">Compose prefs</string>

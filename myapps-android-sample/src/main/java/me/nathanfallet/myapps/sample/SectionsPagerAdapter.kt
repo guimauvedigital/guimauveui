@@ -1,4 +1,4 @@
-package me.nathanfallet.myappsandroidsample
+package me.nathanfallet.myapps.sample
 
 import android.content.Context
 import androidx.fragment.app.Fragment
