@@ -5,14 +5,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.compose.material.MaterialTheme
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.LocalContext
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.fragment.app.Fragment
-import com.jamal.composeprefs.ui.PrefsScreen
+import com.jamal.composeprefs3.ui.PrefsScreen
 import me.nathanfallet.myapps.compose.myApps
 
 val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "compose")

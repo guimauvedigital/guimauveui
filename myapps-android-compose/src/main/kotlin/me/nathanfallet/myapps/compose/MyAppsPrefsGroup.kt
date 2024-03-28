@@ -1,8 +1,8 @@
 package me.nathanfallet.myapps.compose
 
 import androidx.compose.ui.res.stringResource
-import com.jamal.composeprefs.ui.GroupHeader
-import com.jamal.composeprefs.ui.PrefsScope
+import com.jamal.composeprefs3.ui.GroupHeader
+import com.jamal.composeprefs3.ui.PrefsScope
 import me.nathanfallet.myapps.android.R
 import me.nathanfallet.myapps.extensions.android
 import me.nathanfallet.myapps.models.MyApp

@@ -24,9 +24,6 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 api(project(":myapps"))
-
-                api("androidx.core:core-ktx:1.12.0")
-                api("com.google.android.material:material:1.11.0")
             }
         }
         val androidUnitTest by getting {
