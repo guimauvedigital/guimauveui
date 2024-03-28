@@ -10,7 +10,7 @@ publishing {
     publications.withType<MavenPublication> {
         pom {
             name.set("myapps")
-            description.set("A list of my iOS & Android apps, with associated views (UIKit, SwiftUI, Preferences, ...), to embed in all of them.")
+            description.set("A list of my apps.")
         }
     }
 }

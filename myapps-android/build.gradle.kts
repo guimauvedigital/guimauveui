@@ -1,38 +1,10 @@
 plugins {
-    kotlin("multiplatform")
+    kotlin("android")
     id("com.android.library")
     kotlin("plugin.serialization")
     id("convention.publication")
     id("org.jetbrains.kotlinx.kover")
     id("com.google.devtools.ksp")
-}
-
-publishing {
-    publications.withType<MavenPublication> {
-        pom {
-            name.set("myapps-android")
-            description.set("A list of my iOS & Android apps, with associated views (UIKit, SwiftUI, Preferences, ...), to embed in all of them.")
-        }
-    }
-}
-
-kotlin {
-    androidTarget()
-
-    applyDefaultHierarchyTemplate()
-    sourceSets {
-        val commonMain by getting {
-            dependencies {
-                api(project(":myapps"))
-            }
-        }
-        val androidUnitTest by getting {
-            dependencies {
-                implementation(kotlin("test"))
-                implementation("io.mockk:mockk:1.13.10")
-            }
-        }
-    }
 }
 
 android {
@@ -44,5 +16,27 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_19
         targetCompatibility = JavaVersion.VERSION_19
+    }
+    publishing {
+        multipleVariants {
+            allVariants()
+            withJavadocJar()
+        }
+    }
+}
+
+dependencies {
+    api(project(":myapps"))
+}
+
+afterEvaluate {
+    publishing {
+        publications.create<MavenPublication>("android") {
+            from(components["default"])
+            pom {
+                name.set("myapps-android")
+                description.set("A list of my Android apps.")
+            }
+        }
     }
 }
