@@ -27,7 +27,7 @@ public struct MyAppView: View {
                 .frame(width: 44, height: 44)
                 .cornerRadius(8)
             VStack(alignment: .leading, spacing: 4) {
-                Text(app.name)
+                Text(app.displayName)
                 Text(LocalizedStringKey(app.description), bundle: .module)
                     .foregroundColor(.secondary)
             }

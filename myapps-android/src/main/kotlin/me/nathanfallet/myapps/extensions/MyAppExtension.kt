@@ -17,6 +17,13 @@ val MyApp.android: MyAppAndroid?
             "https://play.google.com/store/apps/details?id=me.nathanfallet.latexcards"
         )
 
+        MyApp.MOSAICME -> MyAppAndroid(
+            displayName,
+            R.string.mosaicme,
+            R.drawable.mosaicme,
+            "https://play.google.com/store/apps/details?id=me.nathanfallet.mosaicme"
+        )
+
         MyApp.CONVERTY -> MyAppAndroid(
             displayName,
             R.string.converty,
@@ -29,13 +36,6 @@ val MyApp.android: MyAppAndroid?
             R.string.ocaml,
             R.drawable.ocaml,
             "https://play.google.com/store/apps/details?id=me.nathanfallet.ocaml"
-        )
-
-        MyApp.TICTAITOE -> MyAppAndroid(
-            displayName,
-            R.string.tictaitoe,
-            R.drawable.tictaitoe,
-            "https://play.google.com/store/apps/details?id=me.nathanfallet.morpiontpe"
         )
 
         MyApp.BDEENSISA -> MyAppAndroid(

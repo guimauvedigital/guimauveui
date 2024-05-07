@@ -55,7 +55,7 @@ public class MyAppTableViewCell: UITableViewCell {
     }
     
     public func with(app: MyApp) -> MyAppTableViewCell {
-        self.name.text = app.name
+        self.name.text = app.displayName
         self.desc.text = NSLocalizedString(app.description, bundle: .module, comment: app.description)
         self.icon.image = UIImage(named: app.icon, in: .module, compatibleWith: nil)
         self.url = app.url

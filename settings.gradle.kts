@@ -16,6 +16,7 @@ dependencyResolutionManagement {
 rootProject.name = "myapps"
 includeBuild("convention-plugins")
 include(":myapps")
+include(":myapps-ios")
 include(":myapps-android")
 include(":myapps-android-compose")
 include(":myapps-android-preferences")

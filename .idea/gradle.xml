@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/myapps-android-preferences" />
             <option value="$PROJECT_DIR$/myapps-android-recyclerview" />
             <option value="$PROJECT_DIR$/myapps-android-sample" />
+            <option value="$PROJECT_DIR$/myapps-ios" />
           </set>
         </option>
       </GradleProjectSettings>
