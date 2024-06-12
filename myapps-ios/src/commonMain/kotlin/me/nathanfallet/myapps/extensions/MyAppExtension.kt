@@ -37,18 +37,11 @@ val MyApp.ios: MyAppIos?
             "https://apps.apple.com/app/base-converter-converty/id1609456234"
         )
 
-        MyApp.OCAML -> MyAppIos(
+        MyApp.SUITEBDE -> MyAppIos(
             displayName,
-            "ocaml",
-            "OCaml",
-            "https://apps.apple.com/app/ocaml-learn-code/id1547506826"
-        )
-
-        MyApp.BDEENSISA -> MyAppIos(
-            displayName,
-            "bdeensisa",
-            "BdeEnsisa",
-            "https://apps.apple.com/app/bde-de-lensisa/id1669367752"
+            "suitebde",
+            "SuiteBde",
+            "https://apps.apple.com/app/suite-bde/id6476325543"
         )
 
         else -> null

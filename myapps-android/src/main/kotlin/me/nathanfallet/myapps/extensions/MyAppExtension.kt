@@ -31,18 +31,11 @@ val MyApp.android: MyAppAndroid?
             "https://play.google.com/store/apps/details?id=me.nathanfallet.converty"
         )
 
-        MyApp.OCAML -> MyAppAndroid(
+        MyApp.SUITEBDE -> MyAppAndroid(
             displayName,
-            R.string.ocaml,
-            R.drawable.ocaml,
-            "https://play.google.com/store/apps/details?id=me.nathanfallet.ocaml"
-        )
-
-        MyApp.BDEENSISA -> MyAppAndroid(
-            displayName,
-            R.string.bdeensisa,
-            R.drawable.bdeensisa,
-            "https://play.google.com/store/apps/details?id=me.nathanfallet.bdeensisa"
+            R.string.suitebde,
+            R.drawable.suitebde,
+            "https://play.google.com/store/apps/details?id=me.nathanfallet.suitebde"
         )
 
         else -> null

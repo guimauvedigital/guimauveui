@@ -1,7 +1,7 @@
 plugins {
-    id("com.android.application")
     kotlin("android")
-    id("org.jetbrains.compose")
+    kotlin("plugin.compose")
+    id("com.android.application")
 }
 
 android {
@@ -12,14 +12,11 @@ android {
         minSdk = 21
         targetSdk = 34
         versionCode = 1
-        versionName = "1.3.0"
+        versionName = "1.3.2"
     }
     buildFeatures {
         compose = true
         viewBinding = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.5"
     }
     buildTypes {
         getByName("release") {
@@ -27,11 +24,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_19
-        targetCompatibility = JavaVersion.VERSION_19
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     kotlinOptions {
-        jvmTarget = "19"
+        jvmTarget = "21"
     }
 }
 
@@ -40,11 +37,11 @@ dependencies {
     implementation(project(":myapps-android-preferences"))
     implementation(project(":myapps-android-recyclerview"))
 
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.compose.ui:ui:1.6.4")
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.compose.ui:ui:1.6.7")
     implementation("androidx.compose.material3:material3:1.2.1")
-    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
     implementation("androidx.preference:preference-ktx:1.2.1")
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.material:material:1.12.0")
     implementation("com.github.JamalMulla:ComposePrefs3:1.0.4")
 }

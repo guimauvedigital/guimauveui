@@ -40,8 +40,8 @@ kotlin {
     watchosDeviceArm64()
 
     // jvm & js
+    jvmToolchain(21)
     jvm {
-        jvmToolchain(19)
         withJava()
         testRuns.named("test") {
             executionTask.configure {
@@ -60,13 +60,13 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api("me.nathanfallet.usecases:usecases:1.6.0")
+                api("me.nathanfallet.usecases:usecases:1.6.1")
             }
         }
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test"))
-                implementation("io.mockk:mockk:1.13.10")
+                implementation("io.mockk:mockk:1.13.11")
             }
         }
     }

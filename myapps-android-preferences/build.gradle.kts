@@ -1,7 +1,7 @@
 plugins {
     kotlin("android")
-    id("com.android.library")
     kotlin("plugin.serialization")
+    id("com.android.library")
     id("convention.publication")
     id("org.jetbrains.kotlinx.kover")
     id("com.google.devtools.ksp")
@@ -14,8 +14,8 @@ android {
         minSdk = 21
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_19
-        targetCompatibility = JavaVersion.VERSION_19
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     publishing {
         multipleVariants {
@@ -28,8 +28,8 @@ android {
 dependencies {
     api(project(":myapps-android"))
 
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.preference:preference-ktx:1.2.1")
 }

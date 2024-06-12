@@ -1,7 +1,8 @@
 plugins {
     kotlin("android")
-    id("com.android.library")
     kotlin("plugin.serialization")
+    kotlin("plugin.compose")
+    id("com.android.library")
     id("convention.publication")
     id("org.jetbrains.kotlinx.kover")
     id("com.google.devtools.ksp")
@@ -14,14 +15,11 @@ android {
         minSdk = 21
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_19
-        targetCompatibility = JavaVersion.VERSION_19
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     buildFeatures {
         compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.5"
     }
     publishing {
         multipleVariants {
@@ -34,8 +32,8 @@ android {
 dependencies {
     api(project(":myapps-android"))
 
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.compose.ui:ui:1.6.4")
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.compose.ui:ui:1.6.7")
     implementation("androidx.compose.material3:material3:1.2.1")
     implementation("com.github.JamalMulla:ComposePrefs3:1.0.4")
 }

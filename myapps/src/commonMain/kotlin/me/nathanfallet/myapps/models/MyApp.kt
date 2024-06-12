@@ -8,8 +8,7 @@ enum class MyApp(val displayName: String) : IModel<String, Unit, Unit> {
     RINGIFY("Ringify"),
     MOSAICME("MosaicMe"),
     CONVERTY("Base Converter: Converty"),
-    OCAML("OCaml: Learn & Code"),
-    BDEENSISA("BDE de l'ENSISA");
+    SUITEBDE("Suite BDE");
 
     override val id: String
         get() = name
