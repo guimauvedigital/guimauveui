@@ -56,7 +56,7 @@ publishing {
 
         // Provide artifacts information requited by Maven Central
         pom {
-            url.set("https://github.com/nathanfallet/myapps")
+            url.set("https://github.com/guimauvesoftware/myapps")
 
             licenses {
                 license {
@@ -73,7 +73,7 @@ publishing {
                 }
             }
             scm {
-                url.set("https://github.com/nathanfallet/myapps.git")
+                url.set("https://github.com/guimauvesoftware/myapps.git")
             }
         }
     }
