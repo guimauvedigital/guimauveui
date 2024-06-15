@@ -30,6 +30,13 @@ val MyApp.ios: MyAppIos?
             "https://apps.apple.com/app/mosaicme/id6498791686"
         )
 
+        MyApp.IAPUSH -> MyAppIos(
+            displayName,
+            "iapush",
+            "iAPush",
+            "https://apps.apple.com/app/iapush/id6504343683"
+        )
+
         MyApp.CONVERTY -> MyAppIos(
             displayName,
             "converty",

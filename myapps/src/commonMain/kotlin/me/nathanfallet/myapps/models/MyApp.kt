@@ -7,6 +7,7 @@ enum class MyApp(val displayName: String) : IModel<String, Unit, Unit> {
     LATEXCARDS("LaTeX Cards"),
     RINGIFY("Ringify"),
     MOSAICME("MosaicMe"),
+    IAPUSH("iAPush"),
     CONVERTY("Base Converter: Converty"),
     SUITEBDE("Suite BDE");
 

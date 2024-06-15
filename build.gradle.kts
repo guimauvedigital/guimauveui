@@ -13,7 +13,7 @@ plugins {
 
 allprojects {
     group = "me.nathanfallet.myapps"
-    version = "1.3.2"
+    version = "1.3.3"
 
     repositories {
         mavenCentral()
