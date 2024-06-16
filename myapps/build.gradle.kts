@@ -60,7 +60,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api("me.nathanfallet.usecases:usecases:1.6.1")
+                api("me.nathanfallet.usecases:usecases:1.7.0")
             }
         }
         val jvmTest by getting {
