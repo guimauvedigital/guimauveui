@@ -4,29 +4,12 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT">
-            <builds>
-              <build path="$PROJECT_DIR$/convention-plugins" name="convention-plugins">
-                <projects>
-                  <project path="$PROJECT_DIR$/convention-plugins" />
-                </projects>
-              </build>
-            </builds>
-          </compositeBuild>
-        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/convention-plugins" />
-            <option value="$PROJECT_DIR$/myapps" />
-            <option value="$PROJECT_DIR$/myapps-android" />
-            <option value="$PROJECT_DIR$/myapps-android-compose" />
-            <option value="$PROJECT_DIR$/myapps-android-preferences" />
-            <option value="$PROJECT_DIR$/myapps-android-recyclerview" />
-            <option value="$PROJECT_DIR$/myapps-android-sample" />
-            <option value="$PROJECT_DIR$/myapps-ios" />
+            <option value="$PROJECT_DIR$/guimauveui" />
+            <option value="$PROJECT_DIR$/guimauveui-sample" />
           </set>
         </option>
       </GradleProjectSettings>

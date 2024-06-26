@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyAppsiOS",
+    name: "GuimauveUI",
     defaultLocalization: "en",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "MyAppsiOS",
-            targets: ["MyAppsiOS"]),
+            name: "GuimauveUI",
+            targets: ["GuimauveUI"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,13 +20,13 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "MyAppsiOS",
+            name: "GuimauveUI",
             dependencies: [],
             resources: [
-                .process("Resources/MyAppsiOS.xcassets")
+                .process("Resources/GuimauveUI.xcassets")
             ]),
         .testTarget(
-            name: "MyAppsiOSTests",
-            dependencies: ["MyAppsiOS"]),
+            name: "GuimauveUITests",
+            dependencies: ["GuimauveUI"]),
     ]
 )

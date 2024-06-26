@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="header">Applications du même développeur</string>
-    <string name="latexcards">Réviser n\'importe où, n\'importe quand.</string>
-    <string name="converty">Conversion de nombres et plus !</string>
-    <string name="suitebde">Le BDE dans la poche</string>
-    <string name="mosaicme">Apprends en plus sur toi</string>
-</resources>

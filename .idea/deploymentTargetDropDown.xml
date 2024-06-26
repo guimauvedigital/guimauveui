@@ -2,7 +2,13 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="guimauveui-sample">
+        <State />
+      </entry>
       <entry key="myapps-android-sample">
+        <State />
+      </entry>
+      <entry key="uikit-sample">
         <State />
       </entry>
     </value>
