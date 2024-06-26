@@ -56,7 +56,7 @@ enum class GuimauveApp(
         "Suite BDE",
         Res.string.suitebde,
         Res.drawable.suitebde,
-        "SuiteBDE",
+        "SuiteBde",
         androidUrl = "https://play.google.com/store/apps/details?id=me.nathanfallet.suitebde",
         iosUrl = "https://apps.apple.com/app/suite-bde/id6476325543"
     );

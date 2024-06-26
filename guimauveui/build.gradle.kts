@@ -87,6 +87,7 @@ kotlin {
         }
         val androidMain by getting {
             dependencies {
+                implementation(compose.preview)
                 api("androidx.core:core-ktx:1.13.1")
                 api("com.github.JamalMulla:ComposePrefs3:1.0.4")
             }
