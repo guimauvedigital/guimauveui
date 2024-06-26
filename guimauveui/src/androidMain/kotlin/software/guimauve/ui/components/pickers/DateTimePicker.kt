@@ -1,4 +1,4 @@
-package software.guimauve.ui.components
+package software.guimauve.ui.components.pickers
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog

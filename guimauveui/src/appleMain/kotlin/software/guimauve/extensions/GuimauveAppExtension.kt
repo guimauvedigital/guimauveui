@@ -1,6 +1,6 @@
 package software.guimauve.extensions
 
-import software.guimauve.models.GuimauveApp
+import software.guimauve.models.apps.GuimauveApp
 import software.guimauve.native.SwiftUIGuimauveApp
 import kotlin.enums.EnumEntries
 

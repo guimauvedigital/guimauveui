@@ -1,4 +1,4 @@
-package software.guimauve.models
+package software.guimauve.models.apps
 
 import dev.kaccelero.models.IModel
 import org.jetbrains.compose.resources.DrawableResource

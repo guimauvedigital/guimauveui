@@ -90,6 +90,7 @@ kotlin {
                 implementation(compose.preview)
                 api("androidx.core:core-ktx:1.13.1")
                 api("com.github.JamalMulla:ComposePrefs3:1.0.4")
+                api("com.airbnb.android:lottie-compose:6.3.0")
             }
         }
     }

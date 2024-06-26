@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="back">Atrás</string>
     <string name="converty">¡Converte números y más!</string>
     <string name="header">Aplicaciones del mismo desarrollador</string>
     <string name="latexcards">Siempre aprendes.</string>

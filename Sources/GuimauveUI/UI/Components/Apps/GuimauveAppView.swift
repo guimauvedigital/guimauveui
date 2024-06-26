@@ -5,12 +5,9 @@
 //  Created by Nathan Fallet on 28/01/2022.
 //
 
-#if canImport(SwiftUI) && !arch(arm)
-
 import SwiftUI
 import GuimauveUIObjc
 
-@available(iOS 14.0, macOS 11.0, watchOS 7.0, *)
 public struct GuimauveAppView: View {
     
     @Environment(\.openURL) var openURL
@@ -44,5 +41,3 @@ public struct GuimauveAppView: View {
     }
     
 }
-
-#endif

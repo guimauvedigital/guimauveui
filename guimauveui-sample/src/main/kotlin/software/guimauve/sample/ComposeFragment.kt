@@ -13,7 +13,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.fragment.app.Fragment
 import com.jamal.composeprefs3.ui.PrefsScreen
-import software.guimauve.ui.components.guimauveApps
+import software.guimauve.ui.components.apps.guimauveApps
 
 val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "compose")
 

@@ -1,7 +1,7 @@
 package software.guimauve.extensions
 
-import software.guimauve.models.GuimauveApp
-import software.guimauve.models.PlatformGuimauveApp
+import software.guimauve.models.apps.GuimauveApp
+import software.guimauve.models.apps.PlatformGuimauveApp
 import kotlin.enums.EnumEntries
 
 internal fun GuimauveApp.platformApp(url: GuimauveApp.() -> String?) =

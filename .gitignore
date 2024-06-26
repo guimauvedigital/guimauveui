@@ -41,6 +41,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 .swiftpm
+Package.resolved
 
 ### JS ###
 yarn.lock

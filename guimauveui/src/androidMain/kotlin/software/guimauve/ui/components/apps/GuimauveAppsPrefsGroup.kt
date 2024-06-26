@@ -1,4 +1,4 @@
-package software.guimauve.ui.components
+package software.guimauve.ui.components.apps
 
 import com.jamal.composeprefs3.ui.GroupHeader
 import com.jamal.composeprefs3.ui.PrefsScope
@@ -6,7 +6,7 @@ import org.jetbrains.compose.resources.stringResource
 import software.guimauve.Res
 import software.guimauve.extensions.android
 import software.guimauve.header
-import software.guimauve.models.GuimauveApp
+import software.guimauve.models.apps.GuimauveApp
 
 fun PrefsScope.guimauveApps() {
     prefsGroup({

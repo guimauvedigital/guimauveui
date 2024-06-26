@@ -1,4 +1,4 @@
-package software.guimauve.ui.components
+package software.guimauve.ui.components.pickers
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

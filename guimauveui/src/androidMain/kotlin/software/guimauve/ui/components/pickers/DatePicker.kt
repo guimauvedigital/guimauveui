@@ -1,6 +1,6 @@
-package software.guimauve.ui.components
+package software.guimauve.ui.components.pickers
 
-import android.app.TimePickerDialog
+import android.app.DatePickerDialog
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -14,17 +14,17 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kotlinx.datetime.LocalTime
-import software.guimauve.extensions.renderedTime
+import kotlinx.datetime.LocalDate
+import software.guimauve.extensions.renderedDate
 import java.util.*
 
 @Composable
 @Suppress("FunctionName")
-fun TimePicker(
+fun DatePicker(
     modifier: Modifier = Modifier,
-    selected: LocalTime?,
+    selected: LocalDate?,
     placeholder: String = "",
-    onSelected: (LocalTime) -> Unit,
+    onSelected: (LocalDate) -> Unit,
 ) {
 
     val context = LocalContext.current
@@ -32,7 +32,7 @@ fun TimePicker(
     OutlinedTextField(
         leadingIcon = {
             Text(
-                text = selected?.renderedTime ?: placeholder,
+                text = selected?.renderedDate ?: placeholder,
                 style = TextStyle(
                     fontSize = 18.sp,
                     color = if (selected != null) MaterialTheme.colorScheme.onSurface
@@ -42,18 +42,20 @@ fun TimePicker(
                     .padding(horizontal = 16.dp)
                     .fillMaxWidth()
                     .clickable {
-                        TimePickerDialog(
+                        DatePickerDialog(
                             context,
-                            { _, hourOfDay, minute ->
-                                onSelected(LocalTime(hourOfDay, minute))
+                            { _, year, month, dayOfMonth ->
+                                onSelected(LocalDate(year, month + 1, dayOfMonth))
                             },
-                            selected?.hour ?: Calendar
+                            selected?.year ?: Calendar
                                 .getInstance()
-                                .get(Calendar.HOUR_OF_DAY),
-                            selected?.minute ?: Calendar
+                                .get(Calendar.YEAR),
+                            (selected?.monthNumber ?: (Calendar
                                 .getInstance()
-                                .get(Calendar.MINUTE),
-                            true
+                                .get(Calendar.MONTH) + 1)) - 1,
+                            selected?.dayOfMonth ?: Calendar
+                                .getInstance()
+                                .get(Calendar.DAY_OF_MONTH)
                         ).show()
                     }
             )

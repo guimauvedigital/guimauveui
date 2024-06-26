@@ -1,4 +1,4 @@
-package software.guimauve.models
+package software.guimauve.models.apps
 
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.StringResource

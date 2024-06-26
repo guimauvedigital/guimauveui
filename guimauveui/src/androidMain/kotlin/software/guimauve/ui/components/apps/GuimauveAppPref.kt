@@ -1,4 +1,4 @@
-package software.guimauve.ui.components
+package software.guimauve.ui.components.apps
 
 import android.content.Intent
 import android.net.Uri
@@ -16,7 +16,7 @@ import androidx.core.content.ContextCompat
 import com.jamal.composeprefs3.ui.prefs.TextPref
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
-import software.guimauve.models.PlatformGuimauveApp
+import software.guimauve.models.apps.PlatformGuimauveApp
 
 @Composable
 @Suppress("FunctionName")
