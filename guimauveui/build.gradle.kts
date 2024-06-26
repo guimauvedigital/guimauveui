@@ -47,7 +47,7 @@ kotlin {
     ).forEach {
         it.compilations.getByName("main") {
             cinterops.create("GuimauveUI") {
-                includeDirs("$projectDir/src/nativeInterop/cinterop/GuimauveUI")
+                includeDirs("$projectDir/../Sources/GuimauveUIObjc/include")
             }
         }
     }
