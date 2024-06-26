@@ -1,0 +1,3 @@
+language = Objective-C
+package = software.guimauve.native
+headers = SwiftUIGuimauveApp.h

@@ -14,9 +14,9 @@ public struct GuimauveAppView: View {
     
     @Environment(\.openURL) var openURL
     
-    var app: GuimauveApp
+    var app: SwiftUIGuimauveApp
     
-    public init(app: GuimauveApp) {
+    public init(app: SwiftUIGuimauveApp) {
         self.app = app
     }
 
@@ -27,8 +27,8 @@ public struct GuimauveAppView: View {
                 .frame(width: 44, height: 44)
                 .cornerRadius(8)
             VStack(alignment: .leading, spacing: 4) {
-                Text(app.displayName)
-                Text(LocalizedStringKey(app.description), bundle: .module)
+                Text(app.title)
+                Text(LocalizedStringKey(app.text), bundle: .module)
                     .foregroundColor(.secondary)
             }
             #if os(iOS)

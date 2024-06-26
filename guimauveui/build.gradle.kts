@@ -38,28 +38,19 @@ mavenPublishing {
 }
 
 kotlin {
-    // Tiers are in accordance with <https://kotlinlang.org/docs/native-target-support.html>
-    // Tier 1
-    macosX64()
-    macosArm64()
-    iosSimulatorArm64()
-    iosX64()
-
-    // Tier 2
-    //linuxX64()
-    //linuxArm64()
-    //watchosSimulatorArm64()
-    //watchosX64()
-    //watchosArm32()
-    //watchosArm64()
-    //tvosSimulatorArm64()
-    //tvosX64()
-    //tvosArm64()
-    iosArm64()
-
-    // Tier 3
-    //mingwX64()
-    //watchosDeviceArm64()
+    listOf(
+        macosX64(),
+        macosArm64(),
+        iosSimulatorArm64(),
+        iosX64(),
+        iosArm64()
+    ).forEach {
+        it.compilations.getByName("main") {
+            cinterops.create("GuimauveUI") {
+                includeDirs("$projectDir/src/nativeInterop/cinterop/GuimauveUI")
+            }
+        }
+    }
 
     // jvm & js
     jvmToolchain(21)
@@ -71,15 +62,14 @@ kotlin {
             }
         }
     }
-    js {
-        binaries.library()
-        nodejs()
-        browser()
-        //generateTypeScriptDefinitions() // Not supported for now because of collections etc...
-    }
 
     applyDefaultHierarchyTemplate()
     sourceSets {
+        all {
+            languageSettings.apply {
+                optIn("kotlinx.cinterop.ExperimentalForeignApi")
+            }
+        }
         val commonMain by getting {
             dependencies {
                 api(libs.kaccelero.core)

@@ -24,8 +24,8 @@ fun GuimauveAppPref(myApp: PlatformGuimauveApp) {
     val context = LocalContext.current
 
     TextPref(
-        title = myApp.displayName,
-        summary = stringResource(myApp.description),
+        title = myApp.title,
+        summary = stringResource(myApp.text),
         leadingIcon = {
             Box(
                 modifier = Modifier
@@ -33,7 +33,7 @@ fun GuimauveAppPref(myApp: PlatformGuimauveApp) {
             ) {
                 Image(
                     painter = painterResource(myApp.icon),
-                    contentDescription = myApp.displayName,
+                    contentDescription = myApp.title,
                     modifier = Modifier
                         .size(48.dp)
                         .clip(
