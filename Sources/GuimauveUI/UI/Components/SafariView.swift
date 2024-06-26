@@ -44,6 +44,10 @@ public struct SafariView: UIViewControllerRepresentable {
     public typealias UIViewControllerType = SafariViewControllerWrapper
     
     public let url: URL
+    
+    public init(url: URL) {
+        self.url = url
+    }
 
     public func makeUIViewController(context: UIViewControllerRepresentableContext<SafariView>) -> SafariViewControllerWrapper {
         return SafariViewControllerWrapper()
