@@ -29,6 +29,8 @@ enum class GuimauveApp(
         "Ringify",
         iosUrl = "https://apps.apple.com/app/ringify/id1575388217"
     ),
+
+    /*
     MOSAICME(
         "MosaicMe",
         Res.string.mosaicme,
@@ -37,6 +39,7 @@ enum class GuimauveApp(
         androidUrl = "https://play.google.com/store/apps/details?id=me.nathanfallet.mosaicme",
         iosUrl = "https://apps.apple.com/app/mosaicme/id6498791686"
     ),
+    */
     IAPUSH(
         "iAPush",
         Res.string.iapush,
@@ -51,14 +54,6 @@ enum class GuimauveApp(
         "Converty",
         androidUrl = "https://play.google.com/store/apps/details?id=me.nathanfallet.converty",
         iosUrl = "https://apps.apple.com/app/base-converter-converty/id1609456234"
-    ),
-    SUITEBDE(
-        "Suite BDE",
-        Res.string.suitebde,
-        Res.drawable.suitebde,
-        "SuiteBde",
-        androidUrl = "https://play.google.com/store/apps/details?id=me.nathanfallet.suitebde",
-        iosUrl = "https://apps.apple.com/app/suite-bde/id6476325543"
     );
 
     override val id: String
