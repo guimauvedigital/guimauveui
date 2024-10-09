@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.painterResource
 import software.guimauve.Res
 import software.guimauve.latexcards
+import software.guimauve.ui.theme.DefaultTheme
 
 @Composable
 @Suppress("FunctionName")
@@ -30,6 +31,7 @@ fun DefaultCard(
 
     Card(
         elevation = CardDefaults.elevatedCardElevation(),
+        colors = DefaultTheme.defaultCardColors(),
         modifier = modifier
             .fillMaxWidth()
     ) {
